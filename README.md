@@ -5,20 +5,16 @@ This repository contains MATLAB code to reproduce the main simulations in the ma
 
 ## Description
 
-The simulations in this repository will print the rate curves for the following figure panels:
-- Figure 1A-C: examples of types of attractors realizable with TLNs
-- Figure 2A,D: counter and signed counter
-- Figure 3D,E: bound and walk gaits (more gaits are included in the script)
-- Figure 4B–D: rate curves for different initial conditions of 5-gait network, and transitions via targeted pulses
-- Figure 5D: rate curves for quadruped gaits wired with counter network
+Each script reproduces one or more panels from the figures in the paper. 
 
-All scripts are written in MATLAB and are self-contained. Helper functions are included in the `functions/` folder. The helper functions are originally from: https://github.com/nebneuron/CTLN-Basic-2.0/
+- `types_of_attractors.m`: examples of types of attractors realizable with TLNs, reproduces **Fig 1A–C**
+- `TLN_counters.m`: counter and signed counter dynamics, reproduces **Fig 2A,D**
+- `all_isolated_gaits.m`: simulates isolated quadruped gaits (bound, pace, trot, walk, pronk), reproduces **Fig 3D,E** (script includes more than just these panels)
+- `all_quadruped_gaits_and_transitions.m`: dynamics for different initial conditions of 5-gait network, and transitions via targeted pulses, reproduces **Fig 4B,D**
+- `quadruped_gaits_wired_counter.m`: dynamics of quadruped gaits wired with counter network, reproduces **Fig 5D,E**
 
-## Instructions
-
-No installation or setup is required beyond a working MATLAB installation.
-
-Each figure script can be run independently. Comments at the top of each script indicate which figure it reproduces.
+Helper functions are in the `functions/` folder. These are adapted from:  
+https://github.com/nebneuron/CTLN-Basic-2.0/
 
 ## Citation
 
