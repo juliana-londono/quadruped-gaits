@@ -1,4 +1,4 @@
-# Attractor-based models for sequences and pattern generation in neural circuits
+# Quadruped gaits with TLNs code
 
 This repository contains MATLAB code to reproduce the main simulations in the manuscript:
 **Attractor-based models for sequences and pattern generation in neural circuits**. Preprint available at https://www.biorxiv.org/content/10.1101/2025.03.07.642121v2
