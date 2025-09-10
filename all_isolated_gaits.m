@@ -1,4 +1,6 @@
 %script to plot isolated (NOT induced) gaits.
+% simulates isolated quadruped gaits (bound, pace, trot, walk, pronk), 
+% reproduces Fig 3D,E (bound, walk).
 %written by Juliana L
 
 close all
@@ -114,4 +116,5 @@ for i = 1:length(sA_matrices)
 
     subplot(2,11,22); plot_colors(leg_colors);
     yticklabels({'LB','LF','RF','RB'})
+
 end
