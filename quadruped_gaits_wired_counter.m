@@ -3,7 +3,7 @@
 % Layer 2 (L2): cycle of auxiliary nodes controlling access to Layer 3.
 % Layer 3 (L3): gait network with 5 gait attractors (bound, pace, trot, walk, pronk).
 %
-% Generates panels D and E of Figure 4 in the manuscript:
+% Generates panels D and E of Figure 5 in the manuscript:
 % "Attractor-based models for sequences and pattern generation in neural circuits"
 %
 % Panel D: activity in all 3 layers under theta pulses to L1 and L2, grayscale plot,
@@ -302,4 +302,5 @@ plot_ratecurves(soln.X(:,[counter_nodes]),...
     soln.time,colors([counter_nodes],:));
 xlim([0,max(t)])
 title('L1 nodes')
+
 legend(strsplit(num2str([counter_nodes])))
